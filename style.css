@@ -1,0 +1,79 @@
+body {
+
+    text-align: center;
+}
+
+#profile {
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    top:10;
+    background: linear-gradient(90deg, rgba(29, 128, 241, 1) 0%, rgba(17, 241, 17, 1) 35%, rgba(190, 223, 16, 1) 100%);
+    width: 100%;
+    height: 85%;
+    display: table;
+
+}
+
+#name {
+    font-size: 50px;
+    font-family: 'Rubik Bubbles', cursive;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Rubik Bubbles', cursive;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#Bio {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 250px;
+    margin: 450px;
+    
+
+}
+
+.line {
+    height: 6px;
+    width: 150px;
+    background-color: black;
+    margin: 2px auto;
+
+
+}
+
+#family {
+    text-align: center;
+}
+
+.links:hover {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: chocolate;
+}
+
+.my_nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 99999
+}
+
+#bio_messi {
+    padding-top: 40px;
+}
